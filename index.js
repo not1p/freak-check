@@ -21,7 +21,8 @@ app.get('/freakcheck', (req, res) => {
         message = '99-100, ти фрік найвищого масштабу, тебе можна величати КОРОЛЕМ ФРІКІВ Clowning';
     }
 
-    res.json({ randomNumber, message });
+    // Відправляємо текстову відповідь
+    res.send(`${randomNumber}: ${message}`);
 });
 
 app.listen(port, () => {

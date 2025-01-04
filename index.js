@@ -15,9 +15,9 @@ app.get('/freakcheck', (req, res) => {
         message = `Ти ніби і намагаєшся здаватись фріком, але виглядаєш як типовий недофрік, навіть соромно за тебе SadCat`;
     } else if (randomNumber >= 61 && randomNumber <= 80) {
         message = `Ти просто типовий фрічара чату xz`;
-    } else if (randomNumber >= 81 && randomNumber <= 98) {
+    } else if (randomNumber >= 81 && randomNumber <= 97) {
         message = `Ти нереальний фріказоїд, видно що глядач опудала aga`;
-    } else if (randomNumber >= 99 && randomNumber <= 100) {
+    } else if (randomNumber >= 98 && randomNumber <= 100) {
         message = `Ти фрік найвищого масштабу, тебе можна величати КОРОЛЕМ ФРІКІВ Clowning`;
     }
 
